@@ -1,0 +1,29 @@
+
+
+
+
+
+
+/* banner */
+.banner{
+    border: 2px solid red;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 580px;
+    border: 2px dotted red;
+}
+.btn-banner{
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
