@@ -21,13 +21,23 @@ main{
     align-items: center;
 }
 .gap{
-    border:3px solid #b700ff;
     display: inline;
-
+}
+.hover-btn:hover{
+    background: rgb(226, 14, 14);
+    transition: width 45s;
+}
+.btn-banner:hover{
+    background-color: #353f3c;
+    color: rgb(255, 0, 0);
+    transform: rotate(360deg);
+}  
+.btn:hover{
+    background-color: #006A50;
+    color: red;
 }
 /* banner */
 .banner{
-    border: 2px solid red;
     background-color: #C6E4D6;
     border-radius: 24px;
 }
@@ -37,8 +47,6 @@ main{
     justify-content: center;
     width: 1280px;
     height: 580px;
-    border: 2px dotted red;
-    
 }
 .btn-banner{
     padding: 17px 34px;
@@ -61,12 +69,11 @@ main{
 
 /* the vision of future */
 .future{
+
     background-color: #F1F1F3;
-    border: 2px solid blue;
     gap: 32px;
 }
 .future-container{
-    border: 2px dotted blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -94,13 +101,13 @@ main{
     border-radius: 8px;
     border: none;
 }
-#card-btn-1{
+.card-btn-1{
     background-color: #5490F5;
 }
-#card-btn-2{
+.card-btn-2{
     background-color: #09A15C;
 }
-#card-btn-3{
+.card-btn-3{
     background-color: #FFC239;
 }
 .card-title{
@@ -119,16 +126,16 @@ main{
     padding: 30px 0px;
 }
 .prime-letter{
-    border: 2px double blue;
     background-color: rgba(255, 255, 255, 1);
     padding: 48px 24px;
     border-radius: 16px;
     font-size: 16px;
     font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 /* news */
 
-.news{border: 2px solid springgreen;
+.news{
     margin: 0 auto;
     
 }
@@ -136,20 +143,18 @@ main{
 .news-card{
     align-items: center;
     gap: 30px;
-    border:3px solid #720808;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 24px;
     display: flex;
     padding: 48px;
     margin: 24px;
 }
-.card-description{
-    border: 2px dotted rgb(243, 9, 9);
+/* .card-description{
 }
-.news-card
+.news-card */
 .news-img{
     border-radius: 24px;
-    border: 1px solid yellow;
+
 }
 .news-card-btn{
     padding: 13px 26px;
@@ -165,11 +170,9 @@ main{
 
 /* donate */
 .donate{
-    border: 1px solid rgb(128, 0, 38);
+    /* background-color: rgba(14, 14, 14, 0.15); */
+    padding: 80px 0px 20px 0px;
     text-align: center;
-}
-.btn{
-    border: 2px solid springgreen;
 }
 .donate-btn{
     font-size: 40px;
@@ -210,7 +213,6 @@ main{
 /* subscribe */
 
 .subscribe{
-    border: 2px solid red;
     text-align: center;
     background-color: rgba(198, 228, 214, 1);
     margin: 80px 0px;
@@ -219,12 +221,9 @@ main{
     padding: 80px 265px;
 }
 .subscribe-container{
-    border: 2px solid rgb(23, 8, 88);
     padding: 0px 64px 24px;
-    
 }
 .subscribe-from{
-
 }
 .subscribe-text
 {
