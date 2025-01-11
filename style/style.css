@@ -1,5 +1,14 @@
 /* sherd style */
-main{
+*{
+    margin: 0px 0px;
+}
+section{
+    margin-bottom: 30px;
+}
+header{
+    background-color: rgba(245, 245, 245, 1);
+}
+main, header{
     width: 1280px;
     margin: 0 auto;
     background-color: rgba(241, 241, 243, 1);
@@ -7,16 +16,26 @@ main{
 .section-title{
     font-size: 40px;
     font-weight: 600px;
+    margin-bottom: 24px;
 }
 .section-description{
     font-size: 16px;
     font-weight: 400;
+    margin-top: 24px;
+}
+.letter-subtitle{
+    margin-top: 5px;
 }
 .display{
     display: flex;
 }
 
-
+.news-card-sub-img{
+    margin-bottom:24px ;
+}
+.gap{
+    margin-top: 24px;
+}
 .align{
     align-items: center;
 }
@@ -28,7 +47,7 @@ main{
     transition: width 45s;
 }
 .btn-banner:hover{
-    background-color: #353f3c;
+    background-color: #054908;
     color: rgb(255, 0, 0);
     transform: rotate(360deg);
 }  
@@ -36,10 +55,34 @@ main{
     background-color: #006A50;
     color: red;
 }
+.nav-btn:hover{
+    background-color: #054908;
+    color: rgb(255, 0, 0);
+    transform: rotate(360deg);
+}
+
+/* nav */
+.nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-btn{
+    padding: 15px 30px;
+    color: rgba(0, 106, 80, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    margin: 24px 0px;
+}
 /* banner */
 .banner{
     background-color: #C6E4D6;
     border-radius: 24px;
+}
+.banner-subtitle, .card-title, .card-description{
+    margin-bottom: 8px;
 }
 .banner-container{
     display: flex;
@@ -56,6 +99,7 @@ main{
     font-weight: 600;
     border-radius: 8px;
     border: none;
+    margin-top: 30px;
 }
 .banner-subtitle{
     font-size: 24px;
@@ -79,6 +123,7 @@ main{
     justify-content: space-around;
     gap:24px;
     margin-bottom: 32px;
+    margin-top: 40px;
 }
 .future-card{
     padding: 32px;
@@ -100,6 +145,7 @@ main{
     font-weight: 600;
     border-radius: 8px;
     border: none;
+    margin: 10px 0px;
 }
 .card-btn-1{
     background-color: #5490F5;
@@ -147,7 +193,7 @@ main{
     border-radius: 24px;
     display: flex;
     padding: 48px;
-    margin: 24px;
+    margin-top: 24px;
 }
 /* .card-description{
 }
@@ -158,13 +204,13 @@ main{
 }
 .news-card-btn{
     padding: 13px 26px;
-    padding: 17px 34px;
     background-color: #006A50;
     color: white;
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
     border: none;
+    margin: 25px 0px;
 }
 
 
@@ -200,7 +246,6 @@ main{
     font-weight: 400;
 }
 .btn-donate{
-    padding: 13px 26px;
     padding: 17px 34px;
     background-color: #006A50;
     color: white;
@@ -252,13 +297,18 @@ main{
     height: 69px;
 }
 /* footer */
+.footer-title{
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: bold;
 
+}
 hr{
     width: 1122px;
     color: rgba(14, 14, 14, 0.1);
     margin-top: 32px;
     margin-bottom: 32px;
-
+    margin: 0 auto;
 }
 .footer{
     text-align: center;
@@ -267,5 +317,11 @@ hr{
   padding: 0px 0px 50px 0px;
 }
 .contact-img{
+    margin-top: 32px;
     padding: 16px;
+}
+.footer-last-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
