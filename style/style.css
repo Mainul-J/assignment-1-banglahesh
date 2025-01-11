@@ -2,12 +2,21 @@
 main{
     width: 1280px;
     margin: 0 auto;
+    background-color: rgba(241, 241, 243, 1);
+}
+.display{
+    display: flex;
 }
 
 
+.align{
+    align-items: center;
+}
+.gap{
+    border:3px solid #b700ff;
+    display: inline;
 
-
-
+}
 /* banner */
 .banner{
     border: 2px solid red;
@@ -85,4 +94,46 @@ main{
     border-radius: 16px;
     font-size: 16px;
     font-weight: 400;
+}
+/* news */
+
+.news{border: 2px solid springgreen;
+    margin: 0 auto;
+    
+}
+
+.news-card{
+    align-items: center;
+    gap: 30px;
+    border:3px solid #720808;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    display: flex;
+    padding: 48px;
+    margin: 24px;
+}
+.card-description{
+    border: 2px dotted rgb(243, 9, 9);
+}
+.news-card
+.news-img{
+    border-radius: 24px;
+    border: 1px solid yellow;
+}
+.news-card-btn{
+    padding: 13px 26px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/* donate */
+.donate{
+    border: 1px solid rgb(128, 0, 38);
+    text-align: center;
 }
